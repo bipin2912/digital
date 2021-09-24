@@ -1,0 +1,3 @@
+mardown: redcarpet
+baseurl: /digital
+exclude: ['README.MD']
