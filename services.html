@@ -1,0 +1,22 @@
+---
+layout: default
+title: news 
+description: this is news 2 post
+---
+
+<h1>this is services page</h1>
+<ul>
+  {% for news in site.categories.services %}
+    <li>
+      <a href="{{ post.url }}">{{ news.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+<h1>this is projects page</h1>
+<ul>
+  {% for news in site.categories.projects %}
+    <li>
+      <a href="{{ post.url }}">{{ news.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
